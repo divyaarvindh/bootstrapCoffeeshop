@@ -1,0 +1,34 @@
+:root{
+    --primary: "Nunito Sans", serif;
+    --secondary:"Merienda", serif;
+    --bs-btn-bg:#bc9c79;
+    --primarycolor:#be9c79;
+     --bs-btn-hover-bg:#212529;
+}
+.hero {
+  background: linear-gradient(90deg, white, transparent 70%), url(./assets/image/home-bg.jpg);
+  padding: 15rem 0rem 16rem 0rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1, 
+h2{
+    font-family: var(--secondary)
+
+}
+ 
+body{
+   font-family: var(--primary)
+}
+.btn-primary{
+    background-color:#be9c79;
+      --bs-btn-hover-bg:#212529;
+}
+
+ .contacticon i{
+    background-color: #be9c79;
+}
+span{
+    color:var(--primarycolor)
+}

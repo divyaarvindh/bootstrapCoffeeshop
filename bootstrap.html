@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Project Title -->
+    <title>Coffee shop website using bootstarp</title>
+    <!--favorite icon-->
+    <link rel="shortcut icon" href="./assets/image/logo.png">
+    <!--bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--css link-->
+    <link rel="stylesheet" href="./style2.css">
+    <!--font awesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <header><!--1.parent Container-->
+        <nav class="navbar  navbar-expand-md bg-light"><!--2.component-->
+            <div class="container"><!--3.component Container-->
+                <a href="#">
+                    <img src="./assets/image/logo.png" width="50" height="50">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item ">
+                                <a class="nav-link fs-5" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--heroSection-->
+    <div class="hero text-center "><!--2.component-->
+        <div class="container"><!--3.component Container-->
+            <div class="row "><!--4.row-->
+                <div class="col-6"><!--5.column-1-->
+                    <div class="heroBox">
+                        <h1 class="display-4  fs-md-3 fw-bolder">Coffee Heaven</h1>
+                        <p class="fs-16 fs-md-3">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci
+                            Ipsa Id Vero
+                            Perferendis, Reiciendis Dolores!</p>
+                        <button type="button" class=" btn btn-primary fs-4 fs-md-3 py-1 border-0"> About Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <!--ourMenu-->
+    <main><!--1.parent Container-->
+        <section class="ourMenu"><!--2.component-->
+            <div class="container"><!--3.componentContainer-->
+                <div class="row align-items-center"> <!--4.row--->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6"> <!--5.column-1-->
+                        <img src="assets/image/about-img.jpg" class="w-100" alt="ourMenu">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                        <h2 class="fs-1 fw-bold"> A Cup Of Coffee Can Complete Your Day</h2><!--7.contentContainer-->
+                        <p> Lorem Ipsum. Dolor Sit Amet Consectetur Adipisicing Elit. Pariatur, Esse Corrupti.
+                            Incidunt Fuga Sit Numquam Est Sit Numquam Est Consequatur Provident Ipsa Quidem! Lorem
+                        </p>
+                        <button type="button" class=" btn btn-primary fs-4 fs-md-3 py-1 border-0"> Our Menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ourfacility-->
+        <section class="facility "><!--2.component-->
+            <div class="container py-5"><!--3.componentContainer-->
+                <div class="row "><!--4.row-1-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center"><!--5.column-1-->
+                        <img src="./assets/image/heading-img.jpg" class="h-25">
+                        <h2 class="fw-bold">Our Facility</h2>
+                    </div>
+                </div>
+                <div class="row"><!--row2-->
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                        <div class="card border-0 d-flex align-items-center justify-content-center">
+                            <img src="./assets/image/icon-1.png" class="w-25" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">Varities Of Coffee</h3>
+                                <p>Lorem Ipsum Dolor, It Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card border-0 d-flex align-items-center justify-content-center">
+                            <img src="./assets/image/icon-2.png" class="w-25" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">Coffee Beans</h3>
+                                <p class="card-text">Lorem Ipsum Dolor, It Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card border-0 dflex align-items-center justify-content-center">
+                            <img src="./assets/image/icon-3.png" class="w-25" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">BreakFasts And Sweets</h3>
+                                <p class="card-text">Lorem Ipsum Dolor, It Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card  border-0 align-items-center justify-content-center">
+                            <img src="./assets/image/icon-4.png" class="w-25" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">Ready To Go Coffee</h3>
+                                <p class="card-text">Lorem Ipsum Dolor, It Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--popularMenu-->
+        <section class="popularMenu"><!--2.component-->
+            <div class="container"><!--3.componentContainer-->
+                <div class="row"><!--4.row-1-->
+                    <div class="col-12 text-center "><!--5.column-1-->
+                        <img src="./assets/image/heading-img.jpg" class="h-25">
+                        <h2>Popular Menu</h2>
+                    </div>
+                </div>
+                <div class="row"><!--4.row-2-->
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-1.png" alt="menu1" class="w-75">
+                        <h3 class="fs-5">Love you Coffee</h3>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-2.png" alt="menu" class="w-75">
+                        <h3 class="fs-5">Cappuccino</h3>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-3.png" alt="menu" class="w-75">
+                        <h3 class="fs-5">Mocha Coffee</h3>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-4.png" alt="menu" class="w-75">
+                        <h3 class="fs-5">Frappuccino</h3>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-5.png" alt="menu" class="w-75">
+                        <h3 class="fs-5">Black Coffee</h3>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/menu-6.png" alt="menu" class="w-75">
+                        <h3 class="fs-5">Love Heart Coffee</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ourGallery-->
+        <section class="gallery"><!--2.component-->
+            <div class="container py-5"><!--3.componentContainer-->
+                <div class="row"><!--4.row-1-->
+                    <div class="col-12 text-center"><!--5.column-1-->
+                        <img src="./assets/image/heading-img.jpg" class="h-25">
+                        <h2>our Gallery</h2>
+                    </div>
+                </div>
+                <div class="row g-3"><!--4.row-2-->
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-1.jpg" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-2.jpg" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-3.jpg" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-4.jpg" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-5.jpg" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4">
+                        <img src="./assets/image/gallery-6.jpg" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ourTeam-->
+        <section class="team"><!--2.component-->
+            <div class="container ps-5 pe-5"><!--3.componentContainer-->
+                <div class="row"><!--4.row-1-->
+                    <div class="col-12 text-center "><!--5.column-1-->
+                        <img src="./assets/image/heading-img.jpg" class="img-fluid h-25">
+                        <h2>Our Team</h2>
+                    </div>
+                </div>
+                <div class="row"><!--4.row-2-->
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-1.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-2.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-3.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-4.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-5.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-4 text-center">
+                        <img src="./assets/image/our-team-6.jpg" class="w-100" alt="chef">
+                        <p class="fs-5">John Deo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--contact us-->
+    <footer><!--1.parent Container-->
+        <div class="contact componentspacing "><!--2.component-->
+            <div class="container"><!--3.componentContainer-->
+                <div class="row"><!--4.row-1-->
+                    <div class="col-12 text-center"><!--5.column-1-->
+                        <img src="./assets/image/heading-img.jpg" class="h-25">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row"><!--row-2-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="./assets/image/contact-img (1).jpg" class="w-100" alt="contact">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center d-flex align-items-center">
+                        <div class="fo border border-black row p-2">
+                            <h3 class="fs-2 text-center"> Book A Table</h3>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label"></label>
+                                <input type="text" class="form-control border-black fs-5" id="formGroupExampleInput"
+                                    placeholder="Enter Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label"></label>
+                                <input type="text" class="form-control border-black fs-5" id="formGroupExampleInput2"
+                                    placeholder="Enter Your Number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label"></label>
+                                <input type="text" class="form-control  border-black fs-5" id="formGroupExampleInput2"
+                                    placeholder="How Many Guests">
+                            </div>
+                            <div class="for d-flex align-items-center justify-content-center">
+                                <button type="button" class="btn btn-primary border-0 col-lg-4 fs-5">Send
+                                    Messages</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--contactIcon-->
+        <div class="contacticon"><!--component-->
+            <div class="container">
+                <div class="row"><!--row-->
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                        <div class="card border-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-envelope rounded-circle p-3 fs-3 text-white"></i>
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">Our Email</h3>
+                                <p class="fs-5">shaakshi@gmail.com</p>
+                                <p class="fs-5">Hyhy@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card border-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-clock rounded-circle p-3 fs-3 text-white"></i>
+                            <div class="card-body text-center">
+                                <h3 class="fs-5">Opening Hours</h3>
+                                <p class="fs-5">07:00am to 09:00pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card border-0 dflex align-items-center justify-content-center">
+                            <i class="bi bi-geo-alt-fill rounded-circle p-3 fs-3 text-white"></i>
+                            <div class="card-body text-center">
+                                <h3 class="fs-5">Shop Location</h3>
+                                <p class="card-text fs-5">Mumbai, India- 400101</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card  border-0 align-items-center justify-content-center">
+                            <i class="bi bi-telephone rounded-circle p-3 fs-3 text-white"></i>
+                            <div class="card-body text-center">
+                                <h3 class="fs-4">Our Number</h3>
+                                <p class="card-text fs-5">+91-123-456-7890</p>
+                                <p class="fs-5">+91-111-222-3333</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="border-top border-1 border-black"></div>
+                        <p class="fs-5 pt-3">© Copyright @ 2022 by <span>Mr. Web designer </span>| all rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>
